@@ -8,12 +8,17 @@
 
 ## imagenet pretrain 初始化
 
-修改改dist_train.sh中--config 参数为 “./config/imagenet_pre_config.py”
+修改dist_train.sh中--config 参数为 “./config/imagenet_pre_config.py”
 
 ## coco pretrain 初始化
 
-修改改dist_train.sh中--config 参数为 “./config/coco_pre_config.py”
+修改dist_train.sh中--config 参数为 “./config/coco_pre_config.py”
 
 ```
 bash dist_train.sh
+```
+
+# 3.  可视化
+```
+python visual.py
 ```
